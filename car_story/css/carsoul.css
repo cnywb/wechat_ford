@@ -1,0 +1,107 @@
+.nev-wrap .nev-title{height:20px;padding:2px 0 8px 20px;box-sizing: content-box;}
+.wrap .page .container .page-title p{padding-left: 20px;}
+.header-wrap .btn-nev{left:20px}
+/*causur轮播图宽度*/
+
+.carousel-inner{position:relative;width:85.8%;margin:0 auto;overflow: visible;}
+
+.span-back{display:inline-block;width:8px;height:13px;color:#ddd!important;background:url(../images/btn_back.png) no-repeat;background-size:100% 100%;position: absolute;top:17.5px;right:15px;}
+
+
+
+.carousel-inner .item a img{width:100%}
+.h-title-one{margin-left:30px;margin-right:30px;color:#0d4e8c;font-size:17px; font-weight: 700; line-height:24px;text-align: left;margin-top: 10px;}
+.h-intro{margin-left:30px;margin-right:30px;color:#706f6f;font-size: 14px;line-height:24px;text-align: left;margin-top: 0px;}
+.eye{padding-left: 80%;}
+.eye span{float:left}
+span.span-eye{display:inline-block;width:24px;height: 19px;margin-right:0px;background: url(../img/btn_read.jpg) no-repeat;background-size: 100% 100%;}
+.read-num{color:#2e96cd;font-size: 16px;line-height: 19px;}
+.carousel-caption{position: static; padding-top: 5px; min-height: 150px; } 
+.content{background-color: #f3f4f4}
+.bottom-page{width:100%;text-align: center;color:#706f6f;font-size: 18px;padding: 20px 0; background: #f3f4f4; position: relative; bottom: 0}
+
+/*左右箭头*/
+.carousel-control{opacity: 1;}
+.right.carousel-control,.carousel-control.left{width:28px;background-image: none;background-color: #f3f4f4}
+
+.carousel-control span.left-carsour{display: inline-block;width:20px;height:40px;background: url(../img/pre_03.png) no-repeat;background-size: 85% 85%;position:absolute;left:0;z-index: 2;}
+.carousel-control span.right-carsour{display: inline-block;width:20px;height:40px;background: url(../img/next_05.png) no-repeat;background-size: 85% 85%;position:absolute;right:0px;z-index: 2; }
+.carousel-inner .item{background-color: #fff;     }
+
+
+
+.carousel-control span.left-carsour{top:200px}
+.carousel-control span.right-carsour{top:200px}
+
+.carousel-inner .item { }
+
+.carousel-control{background-color: #fff}
+.carousel-control.left{}
+
+.carousel-inner .swiper-button-next{
+	right: -10%;    top: 40%;
+}
+.carousel-inner .swiper-button-prev{
+	left: -10%;    top: 40%;
+}
+
+.carousel-inner .swiper-button-prev {
+    background-image: url(../img/btn_arrow.png);
+    background-position: left;   
+    background-size: cover;
+}
+
+.carousel-inner .swiper-button-next{
+    background-image: url(../img/btn_arrow.png);
+ background-position: right;
+    background-size: cover;
+}
+
+
+.
+element.style {
+}
+.h-intro {
+    /* display: none; */
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #706f6f;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0px;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.carousel-caption{text-shadow: none;}
+
+
+
+
+

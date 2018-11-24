@@ -1,0 +1,93 @@
+<!DOCTYPE html  >
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>长安福特微客服</title>
+    <base href="../"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style-main.css"/>
+    <script>
+      var openid = urlRequest("openId");
+      var medium = urlRequest("utm_source");
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      
+      ga('create', 'UA-101674332-6', 'auto');
+      ga('set', 'campaignName', 'Menu_MoreCampaign');
+      ga('set', 'campaignSource', openid);
+      ga('set', 'campaignMedium', medium);
+      
+      function ClickEvent(Category, Action, Label) {
+          ga('send', 'event', Category, Action, Label);
+      }
+      function urlRequest(paras) {
+          var url = location.href;
+          var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+          var paraObj = {}
+          for (i = 0; j = paraString[i]; i++) {
+              paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+          }
+          var returnValue = paraObj[paras.toLowerCase()];
+          if (typeof(returnValue) == "undefined") {
+              return "";
+          } else {
+              return returnValue;
+          }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="wrap carTypeDetail forwechat">
+      <!--include nev.pug-->
+      <div class="page">
+        <div class="header-wrap">
+          <div class="logo"><img src="img/logo.jpg"/></div>
+        </div>
+        <div class="container"><span class="page-title">
+            <p>探索</p><a class="goBack" href="javascript: void(0);"><img src="img/btn_back.png"/></a></span>
+          <div class="content">
+            <div class="car-banner"><img src=""/></div>
+            <div class="price-content"><span>厂家建议零售价</span><span class="price"></span></div>
+            <div class="configure"><img src=""/></div>
+            <div class="strength-wrap swiper-container">
+              <p class="strength-title">配置亮点</p>
+              <div class="strength-content swiper-wrapper"></div>
+              <div class="strength-pagination swiper-pagination"></div>
+            </div>
+            <div class="show-car">
+              <p class="show-title">精彩展示</p><img src=""/>
+              <div class="video-container swiper-container">
+                <div class="video-wrap swiper-wrapper single-video"></div>
+              </div>
+              <div class="video-pagination swiper-pagination hiding"></div>
+            </div>
+            <div class="configure-detail">
+              <p class="title configure-title"></p>
+              <div class="configure-wrap swiper-container">
+                <div class="configure-content swiper-wrapper"></div>
+              </div>
+              <div class="configure-pagination swiper-pagination"></div>
+            </div><a class="btn-more" href="javascript: void(0);">点击了解更多车辆细节</a>
+          </div>
+        </div><a class="popup hiding"></a>
+      </div>
+    </div>
+    <script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/wxconfig.js"></script>
+    <script src="js/swiper.min.js"> </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

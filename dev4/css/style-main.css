@@ -1,0 +1,877 @@
+@charset "UTF-8";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "微软雅黑","黑体",arial,verdana,sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.hiding {
+  display: none !important;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.verticalAlign {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  zoom: 1;
+}
+
+.alignMiddle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*hide tap highlight background color;*/
+
+div,
+span,
+a,
+button,
+input,
+textarea,
+img {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a,
+button {
+  text-decoration: none;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+img {
+  width: 100%;
+  border: 0;
+}
+
+.header-wrap {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background-color: white;
+}
+
+.header-wrap .logo {
+  margin: 0 auto;
+  width: 80px;
+  padding-top: 15px;
+}
+
+.header-wrap .btn-nev {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  display: block;
+  width: 35px;
+}
+
+.nev-wrap {
+  position: fixed;
+  width: 48%;
+  height: 100%;
+  background-color: #1a394e;
+  color: white;
+  z-index: 200;
+}
+
+@media screen and (max-width: 320px) and (max-height: 504px) and (min-height: 500px) {
+  .nev-wrap {
+    overflow: scroll;
+  }
+}
+
+.nev-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.nev-wrap .nev-title {
+  height: 24px;
+  background-color: #2e96cd;
+  font-size: 18px;
+  padding: 10px 0 10px 20px;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.nev-wrap li {
+  margin: 3% 0;
+}
+
+@media screen and (max-width: 320px) and (max-height: 504px) and (min-height: 500px) {
+  .nev-wrap li {
+    margin: 0;
+  }
+}
+
+.nev-wrap li a span {
+  color: white;
+  vertical-align: middle;
+}
+
+.nev-wrap li a .icon {
+  width: 32px;
+  display: inline-block;
+  line-height: 0;
+  margin-left: 13px;
+}
+
+.nev-wrap li a .name {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.wrap.active {
+  overflow: hidden;
+}
+
+.wrap .page {
+  position: relative;
+  left: 0;
+  -moz-transition: left 0.2s ease-out;
+  -o-transition: left 0.2s ease-out;
+  -webkit-transition: left 0.2s ease-out;
+  transition: left 0.2s ease-out;
+}
+
+.wrap .page.active {
+  left: 48%;
+}
+
+.wrap .page .popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+.wrap .page .container {
+  background-color: #f3f4f4;
+}
+
+.wrap .page .container .page-title {
+  height: 49px;
+  background-color: #1b394e;
+  font-size: 26px;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+.wrap .page .container .page-title p {
+  margin: 0;
+  padding: 6px 20px;
+}
+
+.wrap .page .container .page-title .goBack {
+  position: absolute;
+  top: 3px;
+  right: 15px;
+  width: 8px;
+  z-index: 10;
+}
+
+.wrap .page .container .page-title .goBack img {
+  width: 8px;
+}
+
+.wrap .page .container .content {
+  width: 94%;
+  margin: 0 auto;
+  padding-bottom: 34px;
+}
+
+.wrap .page .container .content .banner {
+  margin-top: 12px;
+  background-color: white;
+  border-radius: 8px;
+  display: block;
+  position: relative;
+}
+
+.wrap .page .container .content .banner .text {
+  padding: 0 20px;
+}
+
+.wrap .page .container .content .banner .text .title {
+  font-weight: bolder;
+  color: #0d4e8c;
+  font-size: 18px;
+  margin: 16px 0 10px 0;
+}
+
+.wrap .page .container .content .banner .text .copy {
+  color: #706f6f;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.wrap .page .container .content .banner .text .copy p {
+  margin: 0;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.wrap .page .container .content .banner .readNum {
+  display: block;
+  position: absolute;
+  right: 11px;
+  bottom: 21px;
+}
+
+.wrap .page .container .content .banner .readNum .icon_read {
+  display: inline-block;
+  width: 24px;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+.wrap .page .container .content .banner .readNum .num {
+  display: inline-block;
+  vertical-align: middle;
+  color: #64b1da;
+  font-size: 14px;
+}
+
+.wrap .page .container .content .banner img {
+  border-radius: 8px 8px 0 0;
+}
+
+.series .page .container .content .banner .text .copy {
+  width: 75%;
+}
+
+.type .page .container .content .banner .text .title-wrap {
+  margin: 16px 0 10px 0;
+}
+
+.type .page .container .content .banner .text .title-wrap .title {
+  margin: 0;
+}
+
+.type .page .container .content .banner .text .title-wrap .price {
+  color: #424242;
+  margin-left: 10px;
+}
+
+.history .page .container {
+  background-color: white;
+}
+
+.history .page .container .content {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.history .page .container .content .banner {
+  border-radius: 0;
+}
+
+.history .page .container .content .banner img {
+  border-radius: 0;
+}
+
+.activity .page .container .content .banner .text .title,
+.promotion .page .container .content .banner .text .title,
+.benefit .page .container .content .banner .text .title {
+  font-size: 16px;
+}
+
+.series-detail {
+  width: 100%;
+  height: 100%;
+}
+
+.series-detail .page {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f4f4;
+}
+
+.series-detail .page .container .swiper-container {
+  width: 76%;
+}
+
+.series-detail .page .container .swiper-container .content {
+  width: 100%;
+}
+
+.series-detail .page .container .swiper-container .content .banner {
+  margin-top: 16px;
+}
+
+.series-detail .page .container .swiper-container .content .banner .text .title {
+  font-size: 17px;
+  margin: 22px 0 10px 0;
+}
+
+.series-detail .page .container .swiper-container .content .banner .text .copy {
+  padding-bottom: 30px;
+}
+
+.series-detail .page .container .swiper-container .content .banner .readNum {
+  bottom: 8px;
+}
+
+.series-detail .page .container .swiper-button-next {
+  background-image: url("../img/btn_arrow.png");
+  background-position: right;
+  background-size: cover;
+  top: 55%;
+}
+
+.series-detail .page .container .swiper-button-prev {
+  background-image: url("../img/btn_arrow.png");
+  background-position: left;
+  background-size: cover;
+  top: 55%;
+}
+
+.series-detail .page .container .swiper-pagination {
+  color: #706f6f;
+  font-size: 14px;
+}
+
+.serve .page .container .content {
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.dealer {
+  width: 100%;
+  height: 100%;
+}
+
+.dealer .page {
+  width: 100%;
+  overflow: scroll;
+}
+
+.dealer .page .container {
+  background-color: white;
+  width: 100%;
+}
+
+.dealer .page .container .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.dealer .page .container .content .form-title {
+  width: 100%;
+  text-align: left;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.dealer .page .container .content .form-title p {
+  color: #0d4e8c;
+}
+
+.dealer .page .container .content .form-title p:first-of-type {
+  font-size: 20px;
+  margin: 14px 0 8px 0;
+}
+
+.dealer .page .container .content .form-title p:last-of-type {
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+.dealer .page .container .content .form-title p ::-webkit-input-placeholder {
+  color: #706f6f;
+}
+
+.dealer .page .container .content .form-title p :-moz-placeholder {
+  color: #706f6f;
+}
+
+.dealer .page .container .content .form-title p 　　::-moz-placeholder {
+  color: #706f6f;
+}
+
+.dealer .page .container .content .form-title p 　　:-ms-input-placeholder {
+  color: #706f6f;
+}
+
+.dealer .page .container .content .user-info {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.dealer .page .container .content .user-info li {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 375px) and (max-height: 672px) and (min-height: 746px) {
+  .dealer .page .container .content .user-info li {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-height: 504px) and (min-height: 500px) {
+  .dealer .page .container .content .user-info li {
+    margin-top: 0;
+  }
+}
+
+.dealer .page .container .content .user-info li:first-of-type {
+  margin-top: 0;
+}
+
+.dealer .page .container .content .user-info li p {
+  color: #2e96cd;
+  margin: 7px 0;
+}
+
+.dealer .page .container .content .user-info li input,
+.dealer .page .container .content .user-info li select {
+  width: 100%;
+  border: 1px solid #c6c5c5;
+  height: 28px;
+  padding: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.dealer .page .container .content .user-info li input {
+  padding-left: 10px;
+}
+
+.dealer .page .container .content .user-info li select {
+  padding-left: 6px;
+}
+
+.dealer .page .container .content .user-info li select.default {
+  color: #706f6f;
+}
+
+.dealer .page .container .content .user-info li select option {
+  color: black;
+}
+
+.dealer .page .container .content .user-info li select option[disabled=disabled] {
+  color: #706f6f;
+}
+
+.dealer .page .container .content .user-info li .province,
+.dealer .page .container .content .user-info li .city {
+  width: 46%;
+  display: inline-block;
+}
+
+.dealer .page .container .content .user-info li .city {
+  float: right;
+}
+
+.dealer .page .container .content .user-info li .dealer {
+  margin-top: 14px;
+}
+
+.dealer .page .container .form-submit {
+  width: 100%;
+  height: 50px;
+  background-color: #2e96cd;
+  display: block;
+  margin-top: 30px;
+  line-height: 47px;
+  color: white;
+  text-align: center;
+}
+
+.carTypeDetail .swiper-pagination .swiper-pagination-bullet {
+  margin: 0 10px;
+  box-sizing: border-box;
+  background-color: #2e96cd;
+  opacity: 1;
+  -webkit-opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+.carTypeDetail .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: transparent;
+  border: 1px solid #2e96cd;
+  border-radius: 50%;
+}
+
+.carTypeDetail .swiper-pagination.more-car .swiper-pagination-bullet {
+  margin: 0 4px;
+}
+
+.carTypeDetail .page .container .content {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.carTypeDetail .page .container .content div {
+  font-size: 0;
+  line-height: 0;
+}
+
+.carTypeDetail .page .container .content .price-content {
+  height: 50px;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.carTypeDetail .page .container .content .price-content span:first-of-type {
+  color: #0d4e8c;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0 14px;
+}
+
+.carTypeDetail .page .container .content .price-content .price {
+  color: #424242;
+  line-height: 50px;
+  font-size: 14px;
+}
+
+.carTypeDetail .page .container .content .configure {
+  border-bottom: 2px solid #bdbdbd;
+}
+
+.carTypeDetail .page .container .content .strength-wrap {
+  text-align: center;
+  padding-bottom: 75px;
+  background-color: white;
+}
+
+.carTypeDetail .page .container .content .strength-wrap .strength-title {
+  font-size: 18px;
+  color: #0d4e8c;
+  line-height: 18px;
+  margin: 50px 0 30px 0;
+}
+
+.carTypeDetail .page .container .content .strength-wrap .swiper-slide .text-content .title {
+  color: #424242;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.carTypeDetail .page .container .content .strength-wrap .swiper-slide .text-content .text {
+  color: #8d9391;
+  font-size: 13px;
+  line-height: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carTypeDetail .page .container .content .strength-wrap .strength-pagination {
+  bottom: 16px;
+}
+
+.carTypeDetail .page .container .content .show-car .video-wrap.single-video {
+  height: auto;
+  display: block;
+}
+
+.carTypeDetail .page .container .content .show-car .video-wrap video {
+  width: 100%;
+}
+
+.carTypeDetail .page .container .content .show-car .video-pagination {
+  position: relative;
+  margin-top: 10px;
+}
+
+.carTypeDetail .page .container .content .configure-detail {
+  color: #0d4e8c;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.carTypeDetail .page .container .content .configure-detail .title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.carTypeDetail .page .container .content .configure-detail .configure-wrap {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.carTypeDetail .page .container .content .configure-detail .configure-content .name {
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.carTypeDetail .page .container .content .configure-detail .configure-content a {
+  display: block;
+  width: 48%;
+  height: 32px;
+  background-color: #2d96cd;
+  margin: 0 auto;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.carTypeDetail .page .container .content .configure-detail .configure-pagination {
+  padding-top: 12px;
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.carTypeDetail .page .container .content .btn-more {
+  display: block;
+  width: 100%;
+  height: 58px;
+  background-color: #2d96cd;
+  margin-top: 34px;
+  color: white;
+  text-align: center;
+  line-height: 52px;
+  font-size: 14px;
+}
+
+.configureDetail {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.configureDetail .page {
+  width: 100%;
+  height: 100%;
+}
+
+.configureDetail .page .container {
+  height: calc(100% - 80px);
+  background-color: white;
+}
+
+.configureDetail .page .container .content {
+  width: 100%;
+  overflow: scroll;
+  height: calc(100% - 49px);
+  padding-bottom: 0;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+
+.configureDetail .page .container .content .car-image {
+  background-color: white;
+  text-align: center;
+  padding: 24px 0 36px 0;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.configureDetail .page .container .content .car-image p {
+  color: #0d4e8c;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.configureDetail .page .container .content .car-image img {
+  width: 72%;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.configureDetail .page .container .content .car-image.close {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 60px;
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+}
+
+.configureDetail .page .container .content .car-image.close img {
+  opacity: 0;
+  -webkit-opacity: 0;
+  height: 0;
+}
+
+.configureDetail .page .container .content .car-image.close p {
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap.active .configure-list .part-content .btn-arrow {
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.configureDetail .page .container .content .configure-detail-wrap.active .configure-list ul {
+  max-height: 1000px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 60px;
+  border-top: 2px solid #bdbdbd;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content,
+.configureDetail .page .container .content .configure-detail-wrap .configure-list li {
+  display: block;
+  background-color: #f3f4f4;
+  color: #2e96cd;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content {
+  padding: 16px 16px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content .btn-arrow {
+  width: 18px;
+  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content span {
+  margin-left: 10px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content img,
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .part-content span {
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .detail-list {
+  overflow: scroll;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list .tip {
+  background-color: #e9e9e9;
+  padding: 10px 18px 10px 0;
+  color: #424242;
+  text-align: right;
+  font-size: 12px;
+  display: block;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list ul {
+  overflow: hidden;
+  max-height: 0;
+  -moz-transition: all 0.8s ease-Out;
+  -o-transition: all 0.8s ease-Out;
+  -webkit-transition: all 0.8s ease-Out;
+  transition: all 0.8s ease-Out;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list ul li {
+  border-top: 2px solid #bdbdbd;
+  padding: 10px 16px 10px 44px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-list ul li a {
+  color: #2e96cd;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-container.show-detail {
+  padding-top: 205px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content {
+  border-top: 2px solid #bdbdbd;
+  background-color: white;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content .config-title {
+  display: block;
+  background-color: #f3f4f4;
+  color: #2e96cd;
+  padding: 16px 16px;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content table tr {
+  border-bottom: 2px solid #c4c3c3;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content table tr:last-of-type {
+  border-bottom: none;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content table tr:first-of-type {
+  border-top: 2px solid #c4c3c3;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content table tr td {
+  padding: 10px 18px;
+  font-size: 15px;
+  color: #8d9391;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.configureDetail .page .container .content .configure-detail-wrap .configure-detail-content table tr td:last-of-type {
+  font-weight: normal;
+  text-align: right;
+  width: 50%;
+}

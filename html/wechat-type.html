@@ -1,0 +1,115 @@
+<!DOCTYPE html  >
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>长安福特微客服</title>
+    <base href="../"/>
+    <link rel="stylesheet" type="text/css" href="css/style-main.css"/>
+    <script>
+      var openid = urlRequest("openId");
+      var medium = urlRequest("utm_source");
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      
+      ga('create', 'UA-101674332-6', 'auto');
+      ga('set', 'campaignName', 'Menu_MoreCampaign');
+      ga('set', 'campaignSource', openid);
+      ga('set', 'campaignMedium', medium);
+      
+      function ClickEvent(Category, Action, Label) {
+          ga('send', 'event', Category, Action, Label);
+      }
+      function urlRequest(paras) {
+          var url = location.href;
+          var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+          var paraObj = {}
+          for (i = 0; j = paraString[i]; i++) {
+              paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+          }
+          var returnValue = paraObj[paras.toLowerCase()];
+          if (typeof(returnValue) == "undefined") {
+              return "";
+          } else {
+              return returnValue;
+          }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="wrap type forwechat">
+      <div class="page">
+        <div class="header-wrap">
+          <div class="logo"><img src="img/logo.jpg"/></div>
+        </div>
+        <div class="container"><span class="page-title"> 
+            <p>车型鉴赏</p></span>
+          <div class="content"><a class="banner" href="html/wechat-carTypeDetail.html?type=ecoSport" data-ga="Ecosport"><img src="img/cartype/banner1.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">全新福特翼搏</span><span class="price">¥ 79,800 起</span></div>
+                            <div class="copy">
+                              <p>EcoBoost®发动机、六速自动变速器、</p>
+                              <p>智能启停系统、新一代SYNC®3、8英寸超大屏。</p>
+                            </div>
+                          </div></a><a class="banner" href="html/wechat-carTypeDetail.html?type=escort" data-ga="Escort"><img src="img/cartype/banner4.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">福特福睿斯</span><span class="price">¥ 96,800 起</span></div>
+                            <div class="copy">
+                              <p>福特福睿斯采用家族式时尚大气外观设计，拥有舒适宽敞的驾乘空间，高强度车身和多方位安全气囊，为家人的幸福出行保驾护航。</p>
+                            </div>
+                          </div></a><a class="banner" href="html/wechat-carTypeDetail.html?type=focus" data-ga="Focus"><img src="img/cartype/banner5.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">福特福克斯</span><span class="price">¥ 115,800 起</span></div>
+                            <div class="copy">
+                              <p>卓越操控：搭载EcoBoost®180发动机，傲视同级。</p>
+                              <p>安全至上：高强度车身，多方位安全配备，畅行无忧。</p>
+                              <p>领先智能：近20项科技配置，懂你所想，为你而行。</p>
+                            </div>
+                          </div></a><a class="banner" href="html/wechat-carTypeDetail.html?type=mondeo" data-ga="NewMondeo"><img src="img/cartype/banner6.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">福特新蒙迪欧</span><span class="price">¥ 179,800 起</span></div>
+                            <div class="copy">
+                              <p>福特新蒙迪欧插电混动版，全新上市。百公里油耗低至2.0L，纯电动续驶里程52公里。</p>
+                            </div>
+                          </div></a><a class="banner" href="html/wechat-carTypeDetail.html?type=kuga" data-ga="Kuga"><img src="img/cartype/banner3.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">福特翼虎</span><span class="price">¥ 169,800 起</span></div>
+                            <div class="copy">
+                              <p>2018款新福特翼虎是长安福特旗下</p>
+                              <p>第二款配备“福特派互联”的车型。</p>
+                            </div>
+                          </div></a><a class="banner" href="html/wechat-carTypeDetail.html?type=edge" data-ga="Edge"><img src="img/cartype/banner2.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">福特锐界</span><span class="price">¥ 229,800 起</span></div>
+                            <div class="copy">
+                              <p>大尺寸全景天窗、SYNC®3车载连接系统、</p>
+                              <p>感应式后备厢门、主动泊车辅助系统。</p>
+                            </div>
+                          </div></a><a class="banner" href="html/wechat-carTypeDetail.html?type=taurus" data-ga="Taurus"><img src="img/cartype/banner7.jpg"/>
+                          <div class="text">
+                            <div class="title-wrap"><span class="title">福特金牛座</span><span class="price">¥ 234,800 起</span></div>
+                            <div class="copy">
+                              <p>行政级尊荣空间，E-shifter 旋钮式电子换挡器，SYNC®3车载链接系统，前后排多角度通风/加热按摩座椅。</p>
+                            </div>
+                          </div></a>
+          </div>
+        </div><a class="popup hiding"></a>
+      </div>
+    </div>
+    <script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/wxconfig.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

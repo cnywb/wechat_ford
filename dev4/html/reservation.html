@@ -1,0 +1,97 @@
+<!DOCTYPE html  >
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>长安福特进无止境</title>
+    <base href="../"/>
+    <link rel="stylesheet" type="text/css" href="css/style-main.css"/>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-113066819-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-113066819-1');
+      
+    </script>
+  </head>
+  <body>
+    <div class="wrap dealer">
+      <div class="page">
+        <div class="header-wrap">
+          <div class="logo"><img src="img/logo.jpg"/></div>
+        </div>
+        <div class="container"><span class="page-title"> 
+            <p>预约试驾</p></span>
+          <div class="content">
+            <div class="form-title">
+              <p>填写以下信息申请试乘试驾</p>
+            </div>
+            <form class="user-info">
+              <ul>
+                <li>
+                  <p>您的姓名*</p>
+                  <input class="userName" type="text" value="" name="username" placeholder="请输入您的姓名" maxlength="5"/>
+                </li>
+                <li>
+                  <p>手机号码*</p>
+                  <input class="userTel" type="tel" value="" name="phone" placeholder="请输入您的手机号码" maxlength="11" pattern="/^[1][3,4,5,7,8][0-9]{9}$/"/>
+                </li>
+                <li>
+                  <p>意向车型*</p>
+                  <select class="car-type default">
+                    <option disabled="disabled" selected="selected" value="">请选择车型</option>
+                    <option value="新福特翼虎">新福特翼虎</option>
+                    <option value="福特福睿斯">福特福睿斯</option>
+                    <option value="福特福克斯">福特福克斯</option>
+                    <option value="福特新蒙迪欧">福特新蒙迪欧</option>
+                    <option value="福特新蒙迪欧智能混动版">福特新蒙迪欧智能混动版</option>
+                    <option value="福特金牛座">福特金牛座</option>
+                    <option value="福特翼搏">福特翼搏</option>
+                    <option value="福特锐界">福特锐界</option>
+                  </select>
+                </li>
+                <li>
+                  <p>意向购车时间*</p>
+                  <select class="buy-time default">
+                    <option disabled="disabled" selected="selected" value="">请选择购车时间</option>
+                    <option value="0-3个月">0-3个月</option>
+                    <option value="4-6个月">4-6个月</option>
+                    <option value="7-12个月">7-12个月</option>
+                    <option value="1-2年">1-2年</option>
+                    <option value="有购车计划但没决定时间">有购车计划但没决定时间</option>
+                    <option value="暂无购车计划">暂无购车计划</option>
+                  </select>
+                </li>
+                <li>
+                  <p>选择经销商*</p>
+                  <div class="province">
+                    <select class="check default" id="province">
+                      <option disabled="disabled" selected="selected" value="">请选择省份</option>
+                    </select>
+                  </div>
+                  <div class="city">
+                    <select class="check default" id="city">
+                      <option disabled="disabled" selected="selected" value="">请选择城市</option>
+                    </select>
+                  </div>
+                  <div class="dealer">
+                    <select class="check default" id="dealer">
+                      <option disabled="disabled" selected="selected" value="">请选择经销商</option>
+                    </select>
+                  </div>
+                </li>
+              </ul>
+            </form>
+            <submit class="form-submit">确认提交</submit>
+          </div>
+        </div><a class="popup hiding"></a>
+      </div>
+    </div>
+    <script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/wxconfig.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

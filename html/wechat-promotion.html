@@ -1,0 +1,83 @@
+<!DOCTYPE html  >
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>长安福特微客服</title>
+    <base href="../"/>
+    <link rel="stylesheet" type="text/css" href="css/style-main.css"/>
+    <script>
+      var openid = urlRequest("openId");
+      var medium = urlRequest("utm_source");
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      
+      ga('create', 'UA-101674332-6', 'auto');
+      ga('set', 'campaignName', 'Menu_MoreCampaign');
+      ga('set', 'campaignSource', openid);
+      ga('set', 'campaignMedium', medium);
+      
+      function ClickEvent(Category, Action, Label) {
+          ga('send', 'event', Category, Action, Label);
+      }
+      function urlRequest(paras) {
+          var url = location.href;
+          var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+          var paraObj = {}
+          for (i = 0; j = paraString[i]; i++) {
+              paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+          }
+          var returnValue = paraObj[paras.toLowerCase()];
+          if (typeof(returnValue) == "undefined") {
+              return "";
+          } else {
+              return returnValue;
+          }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="wrap promotion forwechat">
+      <div class="page">
+        <div class="header-wrap">
+          <div class="logo"><img src="img/logo.jpg"/></div>
+        </div>
+        <div class="container"><span class="page-title"> 
+            <p>促销活动</p></span>
+          <div class="content"><a class="banner" href="http://mp.weixin.qq.com/s?__biz=MzAwODA1ODIzNg==&amp;mid=513270433&amp;idx=1&amp;sn=e35911a819da7ca9d8d5cd769f01ebad&amp;chksm=0017e6b237606fa4ab4338fe5239ff5e1b1b441c9b862b6e26cd944232911881b462c9ed338c#rd" data-ga="Edge"><img src="img/promotion/banner2.jpg"/>
+                          <div class="text">
+                            <p class="title">新锐界 新成就
+                            </p>
+                            <div class="copy">
+                              <p>超值价格，丰富配置，与你共创新成就</p>
+                              <p>2018款新福特锐界 大7座SUV22.98万起</p>
+                              <p>同时乐享两年低利率</p>
+                            </div>
+                          </div></a><a class="banner" href="javascript:void(0);" data-ga=""><img src="img/activity/banner2.jpg"/>
+                          <div class="text">
+                            <p class="title">更多精彩活动期待您的加入
+                            </p>
+                            <div class="copy">
+                            </div>
+                          </div></a>
+          </div>
+        </div><a class="popup hiding"></a>
+      </div>
+    </div>
+    <script src="//wximg.qq.com/wxp/libs/wxmoment/0.0.4/wxmoment.min.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/wxconfig.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

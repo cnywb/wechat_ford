@@ -1,0 +1,653 @@
+{
+    "carType" : {
+        "ecoSport" : {
+            "title" : "探索 福特翼搏",
+            "banner" : "img/cartype_detail/ecoSport/banner.jpg",
+            "price" : "¥ 79,800 起",
+            "configure" : "img/cartype_detail/ecoSport/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/ecoSport/strength_img_1.jpg",
+                    "title" : "同级领先的空气动力学设计",
+                    "text" : "在不断向前的路上，找到与风的平衡。全新福特翼搏采用傲视同侪的空气动力学，有效改进风阻系数，兼顾纯正的SUV表现和燃油经济性。"
+                },
+                {
+                    "img" : "img/cartype_detail/ecoSport/strength_img_2.jpg",
+                    "title" : "全新自动进气格栅，驭风而行",
+                    "text" : "用更智能的方式，与风相处。自动进气格栅可以根据车速，动态调节发动机温度和气候系统；优化气流进入发动机室的技术，降低车辆阻力系数；通过减少发动机预热时间，提高效率和降低排放。"
+                },
+                {
+                    "img" : "img/cartype_detail/ecoSport/strength_img_3.jpg",
+                    "title" : "SYNC®3与福特派享车更轻松",
+                    "text" : "采用进一步优化的语音识别技术，舒适的手写输入，AppLink™及Apple Carplay™功能，让旅途更精彩。通过SYNC®3体验福特派的智能与便捷，轻松查看保养计划与历史，预先寻找停车位及连线福特大使，获得专业的帮助等多项服务。"
+                },
+                {
+                    "img" : "img/cartype_detail/ecoSport/strength_img_4.jpg",
+                    "title" : "灵活后备箱空间，装下一路所需",
+                    "text" : "需要装载更大件的物品？全新后排座椅可以完全放平，从而更灵活地利用后备箱空间，装载更丰富的旅途所需。"
+                }
+            ],
+            "show" : "img/cartype_detail/ecoSport/show.jpg",
+            "video_poster" : "img/cartype_detail/ecoSport/poster.jpg",
+            "video_link" : "img/cartype_detail/ecoSport/ecosport.mp4",
+            "configure_detail" : {
+                "title" : "福特翼搏车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "48",
+                        "img" : "img/cartype_detail/ecoSport/car1.jpg",
+                        "link" : "html/configureDetail.html?type=ecoSport&carID=48",
+                        "name" : "福特翼搏 1.5L MT 精翼型"
+                    },
+                    {
+                        "id" : "49",
+                        "img" : "img/cartype_detail/ecoSport/car1.jpg",
+                        "link" : "html/configureDetail.html?type=ecoSport&carID=49",
+                        "name" : "福特翼搏 1.5L AT 精翼型"
+                    },
+                    {
+                        "id" : "50",
+                        "img" : "img/cartype_detail/ecoSport/car1.jpg",
+                        "link" : "html/configureDetail.html?type=ecoSport&carID=50",
+                        "name" : "福特翼搏 1.5L AT 铂翼型"
+                    },
+                    {
+                        "id" : "51",
+                        "img" : "img/cartype_detail/ecoSport/car1.jpg",
+                        "link" : "html/configureDetail.html?type=ecoSport&carID=51",
+                        "name" : "福特翼搏 1.5L AT 尊翼型"
+                    },
+                    {
+                        "id" : "52",
+                        "img" : "img/cartype_detail/ecoSport/car1.jpg",
+                        "link" : "html/configureDetail.html?type=ecoSport&carID=52",
+                        "name" : "福特翼搏 EcoBoost®125 尊翼型"
+                    },
+                    {
+                        "id" : "53",
+                        "img" : "img/cartype_detail/ecoSport/car1.jpg",
+                        "link" : "html/configureDetail.html?type=ecoSport&carID=53",
+                        "name" : "福特翼搏 2.0L AT四驱尊翼型"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/suvs/ecosport/"
+        },
+        "edge" : {
+            "title" : "探索 福特锐界",
+            "banner" : "img/cartype_detail/edge/banner.jpg",
+            "price" : "¥229,800 起",
+            "configure" : "img/cartype_detail/edge/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/edge/strength_img_1.jpg",
+                    "title" : "探索你不知道的福特SUV科技",
+                    "text" : "优异动态表现:<br>锐界在福特北美迪尔伯恩试车场，经由专业动态调校团队历时3个月，针对多种路况以及车辆各部分的表现进行主观评估和客观测试。<br>优质驾乘体验:<br>福特锐界座椅的皮质经过了无数次科学模拟测试，让再小的细节，也不被忽略。"
+                },
+                {
+                    "img" : "img/cartype_detail/edge/strength_img_2.jpg",
+                    "title" : "7人座豪华宽敞空间",
+                    "text" : "家庭、事业、朋友、自由、生活中的每一个重要的部分，每一次难忘的精彩瞬间，锐界的7人座豪华宽敞空间都能为你一一承载，舒适布局与豪华质感，更让心情和身体都得到尽情的自由舒展，让每一位都能乐在其中。"
+                },
+                {
+                    "img" : "img/cartype_detail/edge/strength_img_3.jpg",
+                    "title" : "SYNC®3车载连接系统",
+                    "text" : "新一代SYNC® 配备8英寸电容屏，支持多点触控，实现手写输入，手势缩放功能，带来如平板电脑般的轻松流畅操作！语音识别优化，让语音导航，拨打电话变得更简单快捷，同时升级版本的AppLinkTM让你的体验越加得心应手。"
+                },
+                {
+                    "img" : "img/cartype_detail/edge/strength_img_4.jpg",
+                    "title" : "ACS低速安全系统",
+                    "text" : "当车辆以不高于80公里/小时的速度行驶时，低速行车安全系统开始启动，当传感器探测到过于接近前方车辆而驾驶者尚未采取制动措施，系统就会自动刹车，减少碰撞事故的发生。"
+                },
+                {
+                    "img" : "img/cartype_detail/edge/strength_img_5.jpg",
+                    "title" : "2018款 EcoBoost® 245四驱运动型<br>动感与质感并存",
+                    "text" : "拥有熏黑前格栅搭配20寸轮毂设计，营造强大视觉冲击及运动感。雅墨黑内饰，为车内空间带来绅士般的高贵质感，更显典雅从容。"
+                }
+            ],
+            "show" : "img/cartype_detail/edge/show.jpg",
+            "video_poster" : "img/cartype_detail/edge/poster.jpg",
+            "video_link" : ["img/cartype_detail/edge/edge1.mp4", "img/cartype_detail/edge/edge2.mp4"],
+            "configure_detail" : {
+                "title" : "福特锐界车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "21",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=21",
+                        "name" : "2018款 EcoBoost® 245 两驱精锐型"
+                    },
+                    {
+                        "id" : "19",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=19",
+                        "name" : "2018款 EcoBoost® 245 两驱五座铂锐型"
+                    },
+                    {
+                        "id" : "20",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=20",
+                        "name" : "2018款 EcoBoost® 245 两驱七座铂锐型"
+                    },
+                    {
+                        "id" : "22",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=22",
+                        "name" : "2018款 EcoBoost® 245 两驱豪锐型"
+                    },
+                    {
+                        "id" : "18",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=18",
+                        "name" : "EcoBoost® 245 四驱运动型"
+                    },
+                    {
+                        "id" : "17",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=17",
+                        "name" : "2018款 EcoBoost® 245 四驱尊锐型 Plus"
+                    },
+                    {
+                        "id" : "15",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=15",
+                        "name" : "EcoBoost® 330 V6 四驱运动型"
+                    },
+                    {
+                        "id" : "16",
+                        "img" : "img/cartype_detail/edge/car1.jpg",
+                        "link" : "html/configureDetail.html?type=edge&carID=16",
+                        "name" : "2018款 EcoBoost® 330 V6 四驱旗舰型"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/suvs/edge/"
+        },
+        "escort" : {
+            "title" : "探索 福特福睿斯",
+            "banner" : "img/cartype_detail/escort/banner.jpg",
+            "price" : "¥96,800 起",
+            "configure" : "img/cartype_detail/escort/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/escort/strength_img_1.jpg",
+                    "title" : "ISOFIX 儿童安全座椅接口",
+                    "text" : "我们为你的宝贝悉心配备了ISOFIX儿童安全座椅接口，兼容各种主流儿童安全座椅，用满分关爱打造贴心安全。"
+                },
+                {
+                    "img" : "img/cartype_detail/escort/strength_img_2.jpg",
+                    "title" : "高强度车身结构",
+                    "text" : "一身精钢铁骨才能为挚爱提供超强保护！基于福特全球研发平台的高强度车身结构，加上高强度硼钢材质，在保证更高安全性的同时减轻车身重量，让你尽享驾驭乐趣而无后顾之忧。"
+                },
+                {
+                    "img" : "img/cartype_detail/escort/strength_img_3.jpg",
+                    "title" : "2687mm轴距和1825mm车宽",
+                    "text" : "除了轻松容下每一位家庭乘员，还装满路人羡慕的眼光，2687mm的轴距和1825mm的车宽营造了一个宽敞、舒适的乘车空间，举手投足之间再无局促感。"
+                },
+                {
+                    "img" : "img/cartype_detail/escort/strength_img_4.jpg",
+                    "title" : "宽适内部空间",
+                    "text" : "让每个所在，都舒适满载！考虑到中国大家庭对车内空间的需要，福睿斯通过座椅整体优化设计，在保持车身基本尺寸的基础上，使后排获得了更高的腿部和膝部空间，全家每一次出行都能享受宽敞和舒适。"
+                },
+                {
+                    "img" : "img/cartype_detail/escort/strength_img_5.jpg",
+                    "title" : "人性化存储空间",
+                    "text" : "巧妙设计的大型双层手套箱，让日常小物件统统各就各位；后排座椅更可100%翻倒，与后备箱连通成为一 个更大的储物空间，搬运大件物品不在话下。"
+                }
+            ],
+            "show" : "img/cartype_detail/escort/show.jpg",
+            "video_poster" : "img/cartype_detail/escort/poster.jpg",
+            "video_link" : ["img/cartype_detail/escort/escort1.mp4", "img/cartype_detail/escort/escort2.mp4"],
+            "configure_detail" : {
+                "title" : "福特福睿斯车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "11",
+                        "img" : "img/cartype_detail/escort/car1.jpg",
+                        "link" : "html/configureDetail.html?type=escort&carID=11",
+                        "name" : "福睿斯手动舒适型"
+                    },
+                    {
+                        "id" : "12",
+                        "img" : "img/cartype_detail/escort/car1.jpg",
+                        "link" : "html/configureDetail.html?type=escort&carID=12",
+                        "name" : "福睿斯自动舒适型"
+                    },
+                    {
+                        "id" : "13",
+                        "img" : "img/cartype_detail/escort/car1.jpg",
+                        "link" : "html/configureDetail.html?type=escort&carID=13",
+                        "name" : "福睿斯1.5L手动时尚型（幸福版）"
+                    },
+                    {
+                        "id" : "14",
+                        "img" : "img/cartype_detail/escort/car1.jpg",
+                        "link" : "html/configureDetail.html?type=escort&carID=14",
+                        "name" : "福睿斯1.5L自动时尚型（幸福版）"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/cars/escort/"
+        },
+        "focus" : {
+            "title" : "探索 福特福克斯",
+            "banner" : "img/cartype_detail/focus/banner.jpg",
+            "price" : "¥ 115,800 起",
+            "configure" : "img/cartype_detail/focus/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/focus/strength_img_1.jpg",
+                    "title" : "TVC弯道扭力智能分配系统",
+                    "text" : "为弯道行驶提供更为合理的动力分配，以每秒100次的频率感应道路变化，不断对前轮之间的扭力进行平衡传递，带来出色的抓地力和弯道控制力。"
+                },
+                {
+                    "img" : "img/cartype_detail/focus/strength_img_2.jpg",
+                    "title" : "EcoBoost®125直喷涡轮增压发动机",
+                    "text" : "蝉联“年度国际发动机”六冠王，并荣获沃德全球十佳发动机！在1500转时即可获得170牛•米的最大扭矩，综合油耗低至5.0L/100km（超能风尚型手动版），省油同时依然强劲十足！"
+                },
+                {
+                    "img" : "img/cartype_detail/focus/strength_img_3.jpg",
+                    "title" : "多方位安全气囊保护",
+                    "text" : "防患于未然，才能让意外没有伤害！福特福克斯标配了前座双安全气囊、前排侧安全气囊和贯穿式头部安全气帘，给您贴心的安全防护。"
+                },
+                {
+                    "img" : "img/cartype_detail/focus/strength_img_4.jpg",
+                    "title" : "自动泊车系统&全方位泊车雷达&倒车影像",
+                    "text" : "新升级的自动泊车系统配备全方位泊车辅助雷达。泊车时，12处雷达同时发挥作用，双手脱离方向盘，只需按仪表盘提示控制刹车和档位，平行泊车和垂直泊车均可轻松实现。"
+                },
+                {
+                    "img" : "img/cartype_detail/focus/strength_img_5.jpg",
+                    "title" : "智能无钥匙进入系统&“Ford Power”智能无钥匙启动系统",
+                    "text" : "随身携带钥匙时，只需轻按车门上的感应块即可解锁车门，开启充满智能的驾驭旅程。带上钥匙进入驾驶舱，踩下刹车踏板，同时按下“Ford Power”启动按钮，引擎即刻启动，超越一触即发。"
+                }
+            ],
+            "show" : "img/cartype_detail/focus/show.jpg",
+            "video_poster" : "img/cartype_detail/focus/poster.jpg",
+            "video_link" : "",
+            "configure_detail" : {
+                "title" : "福特福克斯车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "1",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=1",
+                        "name" : "福特福克斯三厢1.6L手动舒适型（智行版）"
+                    },
+                    {
+                        "id" : "1",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=1",
+                        "name" : "福特福克斯三厢1.6L自动舒适型（智行版）"
+                    },
+                    {
+                        "id" : "2",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=2",
+                        "name" : "福特福克斯三厢1.6L手动风尚型（智行版）"
+                    },
+                    {
+                        "id" : "2",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=2",
+                        "name" : "福特福克斯三厢1.6L自动风尚型（智行版）"
+                    },
+                    {
+                        "id" : "3",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=3",
+                        "name" : "福特福克斯三厢EcoBoost® 125手动超能风尚型（智行版）"
+                    },
+                    
+                    {
+                        "id" : "3",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=3",
+                        "name" : "福特福克斯三厢EcoBoost® 125自动超能风尚型（智行版）"
+                    },
+                    {
+                        "id" : "9",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=9",
+                        "name" : "福特福克斯三厢EcoBoost® 180自动精英型"
+                    },
+                    {
+                        "id" : "5",
+                        "img" : "img/cartype_detail/focus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=5",
+                        "name" : "福特福克斯三厢EcoBoost® 180自动旗舰型"
+                    },
+                    {
+                        "id" : "7",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=7",
+                        "name" : "福特福克斯两厢1.6L手动舒适型（智行版）"
+                    },
+                    {
+                        "id" : "7",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=7",
+                        "name" : "福特福克斯两厢1.6L自动舒适型（智行版）"
+                    },
+                    {
+                        "id" : "6",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=6",
+                        "name" : "福特福克斯两厢1.6L手动风尚型（智行版）"
+                    },
+                    {
+                        "id" : "6",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=6",
+                        "name" : "福特福克斯两厢1.6L自动风尚型（智行版）"
+                    },
+                    {
+                        "id" : "8",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=8",
+                        "name" : "福特福克斯两厢EcoBoost® 125手动超能风尚型（智行版）"
+                    },
+                    {
+                        "id" : "8",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=8",
+                        "name" : "福特福克斯两厢EcoBoost® 125自动超能风尚型（智行版）"
+                    },
+                    {
+                        "id" : "4",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=4",
+                        "name" : "福特福克斯两厢EcoBoost® 180自动精英型"
+                    },
+                    {
+                        "id" : "10",
+                        "img" : "img/cartype_detail/focus/car2.jpg",
+                        "link" : "html/configureDetail.html?type=focus&carID=10",
+                        "name" : "福特福克斯两厢EcoBoost® 180自动运动型"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/cars/allnewfocus/"
+        },
+        "kuga" : {
+            "title" : "探索 福特翼虎",
+            "banner" : "img/cartype_detail/kuga/banner.jpg",
+            "price" : "¥169,800 起",
+            "configure" : "img/cartype_detail/kuga/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/kuga/strength_img_1.jpg",
+                    "title" : "探索你不知道的福特SUV科技",
+                    "text" : "出色动力:<br>双涡流涡轮增压技术提升气缸空气循环效率，让燃烧更充分1750rpm转速下实现最大扭矩350Nm<br>出色安全:<br>硼钢比普通金属更坚固更轻盈，翼虎在车架多个关键部位使用硼钢，增强安全性"
+                },
+                {
+                    "img" : "img/cartype_detail/kuga/strength_img_2.jpg",
+                    "title" : "考虑入微 全局防护",
+                    "text" : "引入福特新一代安全气囊技术，配备经过优化设计的曲面气袋，有效减少气囊弹出时对身体造成的冲击。同时，贴心提供膝部气囊，让保护无处不在。此外，超高精准性的气囊控制策略，使碰撞感应愈加精准及时。"
+                },
+                {
+                    "img" : "img/cartype_detail/kuga/strength_img_3.jpg",
+                    "title" : "SYNC®3车载连接系统",
+                    "text" : "告别繁复的操作，轻松驾驭你的出色旅程。新一代SYNC®3，配备8英寸大屏，支持手写输入、手势缩放；语音识别再度优化，还增配AppLinkTM及苹果CarPlayTM功能。智能化驾乘体验，让探索随心所欲。"
+                },
+                {
+                    "img" : "img/cartype_detail/kuga/strength_img_4.jpg",
+                    "title" : "电动大尺寸全景天窗",
+                    "text" : "电动开启大面积的天窗，与家人一道仰望天空的蔚蓝，也感受灿烂阳光、新鲜空气带来的惬意。可以全幅打开的遮阳帘和隐私玻璃，在保护私密性的同时也提升舒适度。"
+                },
+                {
+                    "img" : "img/cartype_detail/kuga/strength_img_5.jpg",
+                    "title" : "全新EcoBoost®双涡 流涡轮增压直喷发动机",
+                    "text" : "充沛动力源源不断，助你纵情搜寻向往的色彩。采用福特双可变气门正时系统，根据不同工况提供不同的功率和扭矩，从而减少油耗。先进的双涡流涡轮增压技术，有效缓解低速时的迟滞性，使峰值扭矩提早爆发，带来更佳的燃油经济性。同时，内部布局紧凑、运转平稳，降低噪声，提升驾乘舒适性。"
+                }
+            ],
+            "show" : "img/cartype_detail/kuga/show.jpg",
+            "video_poster" : "img/cartype_detail/kuga/poster.jpg",
+            "video_link" : ["img/cartype_detail/kuga/kuga1.mp4", "img/cartype_detail/kuga/kuga2.mp4", "img/cartype_detail/kuga/kuga3.mp4", "img/cartype_detail/kuga/kuga4.mp4", "img/cartype_detail/kuga/kuga5.mp4", "img/cartype_detail/kuga/kuga6.mp4", "img/cartype_detail/kuga/kuga7.mp4"],
+            "configure_detail" : {
+                "title" : "福特翼虎车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "30",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=30",
+                        "name" : "EcoBoost® 180 两驱精翼型"
+                    },
+                    {
+                        "id" : "31",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=31",
+                        "name" : "EcoBoost® 180 两驱铂翼型"
+                    },
+                    {
+                        "id" : "32",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=32",
+                        "name" : "EcoBoost® 180 两驱豪翼型"
+                    },
+                    {
+                        "id" : "33",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=33",
+                        "name" : "EcoBoost® 180 四驱豪翼型"
+                    },
+                    {
+                        "id" : "34",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=34",
+                        "name" : "EcoBoost® 245 四驱豪翼型"
+                    },
+                    {
+                        "id" : "35",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=35",
+                        "name" : "EcoBoost® 245 四驱运动型"
+                    },
+                    {
+                        "id" : "36",
+                        "img" : "img/cartype_detail/kuga/car1.jpg",
+                        "link" : "html/configureDetail.html?type=kuga&carID=36",
+                        "name" : "EcoBoost® 245 四驱尊翼型"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/suvs/kuga/"
+        },
+        "mondeo" : {
+            "title" : "探索 福特蒙迪欧",
+            "banner" : "img/cartype_detail/mondeo/banner.jpg",
+            "price" : "¥179,800 起",
+            "configure" : "img/cartype_detail/mondeo/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/mondeo/strength_img_1.jpg",
+                    "title" : "LKA车道保持辅助系统",
+                    "text" : "全程监测两侧车道标记，一旦车辆在无意识情况下偏离车道，系统将通过震动方向盘和仪表盘信息提醒，并辅助你重回当前行驶车道。"
+                },
+                {
+                    "img" : "img/cartype_detail/mondeo/strength_img_2.jpg",
+                    "title" : "智能感应制动保护系统（带行人识别功能）",
+                    "text" : "采用微波雷达，并增加了前摄像头监测功能，可识别运动和静止物体，感应到碰撞即将发生时系统将自动刹车，提升行车安全性。"
+                },
+                {
+                    "img" : "img/cartype_detail/mondeo/strength_img_3.jpg",
+                    "title" : "主动泊车辅助系统",
+                    "text" : "通过超声波传感器寻找合适的停车位置，只需控制油门和刹车，即可轻松把车停在理想位置，平行、垂直泊车都能出色完成。"
+                },
+                {
+                    "img" : "img/cartype_detail/mondeo/strength_img_4.jpg",
+                    "title" : "ACC 全速智能自适应巡航控制系统",
+                    "text" : "通过摄像头与雷达监测前方路况，前方无车时，会保持在设定车速；前方有车时，会自动调整车速并与前车保持设定的的距离。"
+                },
+                {
+                    "img" : "img/cartype_detail/mondeo/strength_img_5.jpg",
+                    "title" : "EcoBoost®双涡流涡轮增压直喷发动机",
+                    "text" : "先进的双涡流涡轮增压技术，有效缓解低速时的迟滞性，使峰值扭矩提早爆发，带来更佳的燃油经济性。内部布局紧凑、运行平衡，可降低噪声，提升驾乘舒适性。*EcoBoost®200/EcoBoost®245车型均配备此发动机。"
+                },
+                {
+                    "img" : "img/cartype_detail/mondeo/strength_img_6.jpg",
+                    "title" : "福特派互联技术",
+                    "text" : "如果您的福特爱车搭载福特派互联技术，您将可以使用福特派应用程序来远程控制车辆。福特派互联技术给您带来的精彩才刚刚开始。"
+                }
+            ],
+            "show" : "img/cartype_detail/mondeo/show.jpg",
+            "video_poster" : "img/cartype_detail/mondeo/poster.jpg",
+            "video_link" : "img/cartype_detail/mondeo/mondeo1.mp4",
+            "configure_detail" : {
+                "title" : "福特蒙迪欧车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "37",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=37",
+                        "name" : "福特新蒙迪欧EcoBoost® 180 舒适型"
+                    },
+                    {
+                        "id" : "38",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=38",
+                        "name" : "福特新蒙迪欧EcoBoost® 180 时尚型"
+                    },
+                    {
+                        "id" : "39",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=39",
+                        "name" : "福特新蒙迪欧EcoBoost® 180 豪华型"
+                    },
+                    {
+                        "id" : "40",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=40",
+                        "name" : "福特新蒙迪欧EcoBoost® 180 至尊型"
+                    },
+                    {
+                        "id" : "41",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=41",
+                        "name" : "福特新蒙迪欧EcoBoost® 200 时尚型"
+                    },
+                    {
+                        "id" : "42",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=42",
+                        "name" : "EcoBoost® 200 豪华型"
+                    },
+                    {
+                        "id" : "43",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=43",
+                        "name" : "EcoBoost® 245 豪华运动型"
+                    },
+                    {
+                        "id" : "44",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=44",
+                        "name" : "EcoBoost® 245 至尊型"
+                    },
+                    {
+                        "id" : "45",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=45",
+                        "name" : "EcoBoost® 245 旗舰型"
+                    },
+                    {
+                        "id" : "46",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=46",
+                        "name" : "福特新蒙迪欧2.0 HEV 智豪型"
+                    },
+                    {
+                        "id" : "47",
+                        "img" : "img/cartype_detail/mondeo/car1.jpg",
+                        "link" : "html/configureDetail.html?type=mondeo&carID=47",
+                        "name" : "福特新蒙迪欧2.0 HEV 智尊旗舰型"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/cars/newmondeo/"
+        },
+        "taurus" : {
+            "title" : "探索 福特金牛座",
+            "banner" : "img/cartype_detail/taurus/banner.jpg",
+            "price" : "¥234,880 起",
+            "configure" : "img/cartype_detail/taurus/configure.jpg",
+            "strength" : [
+                {
+                    "img" : "img/cartype_detail/taurus/strength_img_1.jpg",
+                    "title" : "行政级尊荣空间",
+                    "text" : "置身繁华，是什么给予您超凡脱俗的领悟？是心境，更是2950mm轴距带来的宽适尊荣空间。VIP宽敞坐席， 配以人性化后排隐私设计，打造更胜一筹的奢适乘坐体验，款待您心中的至上贵宾。"
+                },
+                {
+                    "img" : "img/cartype_detail/taurus/strength_img_2.jpg",
+                    "title" : "E-Shifter旋钮式电子换挡器",
+                    "text" : "真正掌控，在于进退自若。E-Shifter旋钮式电子换档器，打破常规手自排挡的运筹局限，令操控愈显优雅从容，有效减少动力输出损失及换档时的顿挫感，达到舒适与能效的双重飞跃。"
+                },
+                {
+                    "img" : "img/cartype_detail/taurus/strength_img_3.jpg",
+                    "title" : "SYNC®3车载连接系统",
+                    "text" : "用内在智慧，创造高科技驾乘体验。福特金牛座搭载全新一代SYNC®3车载连接系统，8英寸电容屏显示，反应速度、内存容量全面优化，升级方式多样快捷，支持连续手写输入以及AppLink™和苹果CarPlay™功能，实现手机与车内系统的无缝互联。"
+                },
+                {
+                    "img" : "img/cartype_detail/taurus/strength_img_4.jpg",
+                    "title" : "后排中央扶手",
+                    "text" : "拿得起，也放得下，是对人生的把握。配备后座电子倾斜按钮、空调控制按钮等影音娱乐系统的多功能中央扶手，让您即使身居后座，也能处世自若。"
+                },
+                {
+                    "img" : "img/cartype_detail/taurus/strength_img_5.jpg",
+                    "title" : "前后排多角度通风/加热按摩座椅",
+                    "text" : "决定身份的，可能是不拘小节，也可能是考究的细节。优质触感真皮座椅，坐垫及靠背中心区域采用循环式按摩，并具有制冷、制热、通风功能。无论寒冬炎夏，您的每一次出行都是身心享受的旅程。"
+                }
+            ],
+            "show" : "img/cartype_detail/taurus/show.jpg",
+            "video_poster" : "img/cartype_detail/taurus/poster.jpg",
+            "video_link" : "img/cartype_detail/taurus/taurus1.mp4",
+            "configure_detail" : {
+                "title" : "福特金牛座车型配置",
+                "clickTag" : [
+                    {
+                        "id" : "23",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=23",
+                        "name" : "EcoBoost® 180 豪华型"
+                    },
+                    {
+                        "id" : "24",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=24",
+                        "name" : "EcoBoost® 180 至尊型"
+                    },
+                    {
+                        "id" : "25",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=25",
+                        "name" : "EcoBoost® 245 时尚型"
+                    },
+                    {
+                        "id" : "26",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=26",
+                        "name" : "EcoBoost® 245 豪华型"
+                    },
+                    {
+                        "id" : "27",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=27",
+                        "name" : "EcoBoost® 245 旗舰型"
+                    },
+                    {
+                        "id" : "28",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=28",
+                        "name" : "EcoBoost® 325 V6旗舰型"
+                    },
+                    {
+                        "id" : "29",
+                        "img" : "img/cartype_detail/taurus/car1.jpg",
+                        "link" : "html/configureDetail.html?type=taurus&carID=29",
+                        "name" : "EcoBoost® 325 V6 LTD 限量版"
+                    }
+                ]
+            },
+            "more" : "https://www.ford.com.cn/cars/taurus/"
+        }
+    }
+}
